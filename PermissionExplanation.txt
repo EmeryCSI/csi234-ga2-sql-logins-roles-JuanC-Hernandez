@@ -1,0 +1,14 @@
+Explain the different types of permissions you assigned (SELECT, INSERT, UPDATE, DELETE) and what each allows a user to do.
+Select permission lets the user view from a database, they can use the select statement to retrieve data.
+Insert permission lets the user edit table by being able to insert new data to a table, only insert not delete.
+Update permission lets the user edit data currently in a table.
+Delete permission lets the user be able to delete rows from permanently from table.
+
+
+Schema Level Permission is permissions applied to a collection of tables and table level permissions are permissions to individual tables only.
+
+Column level permissions are permission can be granted to only the data that is needed, this prevents from users being able to sensitive information they don't need to see.
+
+Principle of least privilege is when users get the minimum permissions needed to do their jobs. Admins can define users roles in RBACs to minimize the risk of users being able to access information that is not needed for their duties. 
+
+The biggest benefit is consistency, if giving individuals different permission then it will be harder to detect where something went wrong and easier to monitor and easier to manage.
